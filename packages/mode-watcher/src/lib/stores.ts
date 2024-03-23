@@ -14,7 +14,7 @@ const noopStorage = {
 const isBrowser = typeof document !== 'undefined';
 
 // the modes that are supported, used for validation & type derivation
-export const modes = ['dark', 'light', 'system'] as const;
+export const modes = ['dark', 'light', 'polar', 'system'] as const;
 
 /**
  * The key used to store the mode in localStorage.
